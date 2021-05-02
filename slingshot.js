@@ -3,7 +3,7 @@
      var options = { 
      bodyA: bodyA, 
      pointB: pointB, 
-     stiffness: 0.04, 
+     stiffness: 0.1, 
      length: 1
   }
  this.sling = Constraint.create(options); 
